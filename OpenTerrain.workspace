@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="OpenTerrain" Database="./OpenTerrain.tags">
+  <Project Name="OpenTerrain" Path="src/OpenTerrain.project" Active="No"/>
+  <Project Name="load_heightmap" Path="tests/load_heightmap/load_heightmap.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="OpenTerrain" ConfigName="Debug"/>
+      <Project Name="load_heightmap" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="OpenTerrain" ConfigName="Release"/>
+      <Project Name="load_heightmap" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
